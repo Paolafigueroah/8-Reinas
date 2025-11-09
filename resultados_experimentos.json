@@ -1,0 +1,356 @@
+{
+  "experimento1": {
+    "hill_climbing": [
+      {
+        "n": 4,
+        "tiempo_promedio": 0.0,
+        "tiempo_min": 0.0,
+        "tiempo_max": 0.0,
+        "iteraciones_promedio": 1.6666666666666667,
+        "iteraciones_min": 1,
+        "iteraciones_max": 3,
+        "soluciones_encontradas": 2,
+        "memoria_promedio": 0
+      },
+      {
+        "n": 8,
+        "tiempo_promedio": 0.0021777947743733725,
+        "tiempo_min": 0.0015079975128173828,
+        "tiempo_max": 0.003035306930541992,
+        "iteraciones_promedio": 4.333333333333333,
+        "iteraciones_min": 4,
+        "iteraciones_max": 5,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.0078125
+      },
+      {
+        "n": 12,
+        "tiempo_promedio": 0.01574405034383138,
+        "tiempo_min": 0.013044595718383789,
+        "tiempo_max": 0.020632266998291016,
+        "iteraciones_promedio": 6.333333333333333,
+        "iteraciones_min": 6,
+        "iteraciones_max": 7,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.01171875
+      },
+      {
+        "n": 16,
+        "tiempo_promedio": 0.058542331059773765,
+        "tiempo_min": 0.050451040267944336,
+        "tiempo_max": 0.06383514404296875,
+        "iteraciones_promedio": 9,
+        "iteraciones_min": 8,
+        "iteraciones_max": 10,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.02734375
+      },
+      {
+        "n": 20,
+        "tiempo_promedio": 0.15148361523946127,
+        "tiempo_min": 0.14196014404296875,
+        "tiempo_max": 0.16592025756835938,
+        "iteraciones_promedio": 9.666666666666666,
+        "iteraciones_min": 9,
+        "iteraciones_max": 10,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.08333333333333333
+      }
+    ],
+    "backtracking": [
+      {
+        "n": 4,
+        "tiempo": 0.0,
+        "nodos_explorados": 26,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 8,
+        "tiempo": 0.0019991397857666016,
+        "nodos_explorados": 876,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 12,
+        "tiempo": 0.001999378204345703,
+        "nodos_explorados": 3066,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 16,
+        "tiempo": 0.17760729789733887,
+        "nodos_explorados": 160712,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 20,
+        "tiempo": 5.687960624694824,
+        "nodos_explorados": 3992510,
+        "solucion_encontrada": true,
+        "memoria": 0
+      }
+    ]
+  },
+  "experimento2": {
+    "hill_climbing": [
+      {
+        "ejecucion": 1,
+        "tiempo": 0.001998424530029297,
+        "iteraciones": 4,
+        "solucion": "[2, 0, 6, 4, 7, 1, 3, 5]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 2,
+        "tiempo": 0.0009992122650146484,
+        "iteraciones": 3,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 3,
+        "tiempo": 0.00266265869140625,
+        "iteraciones": 6,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 4,
+        "tiempo": 0.002956867218017578,
+        "iteraciones": 5,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 5,
+        "tiempo": 0.002001523971557617,
+        "iteraciones": 6,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 6,
+        "tiempo": 0.0035254955291748047,
+        "iteraciones": 6,
+        "solucion": "[3, 1, 6, 2, 5, 7, 0, 4]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 7,
+        "tiempo": 0.0009963512420654297,
+        "iteraciones": 4,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 8,
+        "tiempo": 0.003005504608154297,
+        "iteraciones": 6,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 9,
+        "tiempo": 0.0010318756103515625,
+        "iteraciones": 4,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      },
+      {
+        "ejecucion": 10,
+        "tiempo": 0.002050161361694336,
+        "iteraciones": 4,
+        "solucion": "No solución",
+        "solucion_encontrada": false
+      }
+    ],
+    "backtracking": [
+      {
+        "ejecucion": 1,
+        "tiempo": 0.0009996891021728516,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 2,
+        "tiempo": 0.000965118408203125,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 3,
+        "tiempo": 0.0,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 4,
+        "tiempo": 0.0009942054748535156,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 5,
+        "tiempo": 0.0010037422180175781,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 6,
+        "tiempo": 0.0009953975677490234,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 7,
+        "tiempo": 0.0009989738464355469,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 8,
+        "tiempo": 0.0009996891021728516,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 9,
+        "tiempo": 0.0005066394805908203,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      },
+      {
+        "ejecucion": 10,
+        "tiempo": 0.0010111331939697266,
+        "nodos_explorados": 876,
+        "solucion": "[0, 4, 7, 5, 2, 6, 1, 3]",
+        "solucion_encontrada": true
+      }
+    ],
+    "estadisticas_hc": {
+      "tiempo_promedio": 0.002122807502746582,
+      "tiempo_desv_est": 0.0009123074185755048,
+      "iteraciones_promedio": 4.8,
+      "iteraciones_desv_est": 1.1352924243950935,
+      "soluciones_unicas": 2,
+      "tasa_exito": 0.2
+    },
+    "estadisticas_bt": {
+      "tiempo_promedio": 0.0008474588394165039,
+      "tiempo_desv_est": 0.00033534844701699494,
+      "nodos_promedio": 876,
+      "nodos_desv_est": 0.0,
+      "soluciones_unicas": 1,
+      "tasa_exito": 1.0
+    }
+  },
+  "experimento3": {
+    "hill_climbing": [
+      {
+        "n": 8,
+        "original": {
+          "solution_found": false,
+          "iterations": 3,
+          "restarts": 0,
+          "execution_time": 0.0009717941284179688,
+          "conflicts": 2
+        },
+        "random_restart": {
+          "solution_found": true,
+          "iterations": 20,
+          "restarts": 5,
+          "execution_time": 0.006792783737182617,
+          "conflicts": 0
+        }
+      },
+      {
+        "n": 12,
+        "original": {
+          "solution_found": false,
+          "iterations": 6,
+          "restarts": 0,
+          "execution_time": 0.00967264175415039,
+          "conflicts": 3
+        },
+        "random_restart": {
+          "solution_found": true,
+          "iterations": 92,
+          "restarts": 16,
+          "execution_time": 0.15612101554870605,
+          "conflicts": 0
+        }
+      },
+      {
+        "n": 16,
+        "original": {
+          "solution_found": false,
+          "iterations": 5,
+          "restarts": 0,
+          "execution_time": 0.029025793075561523,
+          "conflicts": 4
+        },
+        "random_restart": {
+          "solution_found": false,
+          "iterations": 371,
+          "restarts": 50,
+          "execution_time": 2.1580464839935303,
+          "conflicts": 1
+        }
+      }
+    ],
+    "backtracking": [
+      {
+        "n": 8,
+        "original": {
+          "solution_found": true,
+          "nodes_explored": 876,
+          "execution_time": 0.0
+        },
+        "optimizada": {
+          "solution_found": true,
+          "nodes_explored": 876,
+          "execution_time": 0.0010383129119873047
+        }
+      },
+      {
+        "n": 12,
+        "original": {
+          "solution_found": true,
+          "nodes_explored": 3066,
+          "execution_time": 0.0030150413513183594
+        },
+        "optimizada": {
+          "solution_found": true,
+          "nodes_explored": 3066,
+          "execution_time": 0.001989126205444336
+        }
+      },
+      {
+        "n": 16,
+        "original": {
+          "solution_found": true,
+          "nodes_explored": 160712,
+          "execution_time": 0.1586594581604004
+        },
+        "optimizada": {
+          "solution_found": true,
+          "nodes_explored": 160712,
+          "execution_time": 0.17896604537963867
+        }
+      }
+    ]
+  }
+}

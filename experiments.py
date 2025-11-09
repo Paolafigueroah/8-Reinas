@@ -389,11 +389,11 @@ class ExperimentRunner:
         for result in bt_results:
             print(f"{result['n']:<5} {'Original':<20} "
                   f"{result['original']['execution_time']:<15.6f} "
-                  f"{result['original']['nodes_explorados']:<15} "
+                  f"{result['original']['nodes_explored']:<15} "
                   f"{'Sí' if result['original']['solution_found'] else 'No':<10}")
             print(f"{result['n']:<5} {'Poda Optimizada':<20} "
                   f"{result['optimizada']['execution_time']:<15.6f} "
-                  f"{result['optimizada']['nodes_explorados']:<15} "
+                  f"{result['optimizada']['nodes_explored']:<15} "
                   f"{'Sí' if result['optimizada']['solution_found'] else 'No':<10}")
             print("-"*80)
     

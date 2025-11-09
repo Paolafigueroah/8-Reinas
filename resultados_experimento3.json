@@ -1,0 +1,100 @@
+{
+  "experimento1": [],
+  "experimento2": [],
+  "experimento3": {
+    "hill_climbing": [
+      {
+        "n": 8,
+        "original": {
+          "solution_found": false,
+          "iterations": 3,
+          "restarts": 0,
+          "execution_time": 0.0009717941284179688,
+          "conflicts": 2
+        },
+        "random_restart": {
+          "solution_found": true,
+          "iterations": 20,
+          "restarts": 5,
+          "execution_time": 0.006792783737182617,
+          "conflicts": 0
+        }
+      },
+      {
+        "n": 12,
+        "original": {
+          "solution_found": false,
+          "iterations": 6,
+          "restarts": 0,
+          "execution_time": 0.00967264175415039,
+          "conflicts": 3
+        },
+        "random_restart": {
+          "solution_found": true,
+          "iterations": 92,
+          "restarts": 16,
+          "execution_time": 0.15612101554870605,
+          "conflicts": 0
+        }
+      },
+      {
+        "n": 16,
+        "original": {
+          "solution_found": false,
+          "iterations": 5,
+          "restarts": 0,
+          "execution_time": 0.029025793075561523,
+          "conflicts": 4
+        },
+        "random_restart": {
+          "solution_found": false,
+          "iterations": 371,
+          "restarts": 50,
+          "execution_time": 2.1580464839935303,
+          "conflicts": 1
+        }
+      }
+    ],
+    "backtracking": [
+      {
+        "n": 8,
+        "original": {
+          "solution_found": true,
+          "nodes_explored": 876,
+          "execution_time": 0.0
+        },
+        "optimizada": {
+          "solution_found": true,
+          "nodes_explored": 876,
+          "execution_time": 0.0010383129119873047
+        }
+      },
+      {
+        "n": 12,
+        "original": {
+          "solution_found": true,
+          "nodes_explored": 3066,
+          "execution_time": 0.0030150413513183594
+        },
+        "optimizada": {
+          "solution_found": true,
+          "nodes_explored": 3066,
+          "execution_time": 0.001989126205444336
+        }
+      },
+      {
+        "n": 16,
+        "original": {
+          "solution_found": true,
+          "nodes_explored": 160712,
+          "execution_time": 0.1586594581604004
+        },
+        "optimizada": {
+          "solution_found": true,
+          "nodes_explored": 160712,
+          "execution_time": 0.17896604537963867
+        }
+      }
+    ]
+  }
+}
