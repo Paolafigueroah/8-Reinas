@@ -172,28 +172,10 @@ class BacktrackingNQueens:
         return count
 
 
-def visualize_board(board: List[int], n: int):
-    """
-    Visualiza el tablero de N-Reinas.
-    
-    Args:
-        board: Estado del tablero
-        n: Tamaño del tablero
-    """
-    print("\n" + "=" * (2 * n + 1))
-    for row in range(n):
-        print("|", end="")
-        for col in range(n):
-            if board[col] == row:
-                print("Q|", end="")
-            else:
-                print(" |", end="")
-        print()
-    print("=" * (2 * n + 1) + "\n")
-
-
 if __name__ == "__main__":
     # Ejemplo de uso
+    from utils import visualize_board_console
+    
     n = 8
     print(f"Resolviendo problema de {n}-Reinas con Backtracking")
     
@@ -205,4 +187,4 @@ if __name__ == "__main__":
     print(f"Tiempo de ejecución: {stats['execution_time']:.6f} segundos")
     
     if stats['solution_found']:
-        visualize_board(solution, n)
+        visualize_board_console(solution, n)

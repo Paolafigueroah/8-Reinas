@@ -7,6 +7,42 @@ Este proyecto implementa y compara experimentalmente dos enfoques algorítmicos 
 1. **Algoritmo Hill Climbing** (búsqueda local)
 2. **Algoritmo Backtracking** (búsqueda sistemática)
 
+## Estructura del Proyecto
+
+```
+NReinas_Comparativo/
+│
+├── 📄 README.md
+│
+├── 🧠 codigo/
+│   ├── hill_climbing.py          # Algoritmo Hill Climbing
+│   ├── backtracking.py           # Algoritmo Backtracking
+│   ├── utils.py                  # Funciones comunes (medir tiempo, contar nodos, etc.)
+│   ├── main.py                   # Script principal que ejecuta los experimentos
+│   └── test_quick.py             # Pruebas rápidas
+│
+├── 🧪 experimentos/
+│   ├── experimento1_escalabilidad.py
+│   ├── experimento2_consistencia.py
+│   ├── experimento3_optimizacion.py
+│   └── resultados_brutos/        # CSV, logs, JSON con datos de salida
+│       ├── exp1_resultados.json
+│       ├── exp2_resultados.json
+│       ├── exp3_resultados.json
+│       └── resultados_combinados.json
+│
+├── 📊 resultados/
+│   ├── tablas/                   # Tablas procesadas
+│   ├── graficas/                 # Gráficos generados
+│   │   ├── tiempo_vs_n.png
+│   │   ├── iteraciones_vs_n.png
+│   │   └── ...
+│   └── generar_graficos.py       # Script para generar gráficos
+│
+└── 🗃️ docs/
+    └── REPORTE_TECNICO.md        # Reporte técnico completo
+```
+
 ## Fuentes y Referencias
 
 ### Algoritmo Hill Climbing
@@ -43,18 +79,6 @@ Este proyecto implementa y compara experimentalmente dos enfoques algorítmicos 
 - Implementada función de visualización opcional usando matplotlib
 - Agregada poda adicional optimizada con verificación de diagonales mejorada (Experimento 3)
 
-## Estructura del Proyecto
-
-```
-8-Reinas/
-├── hill_climbing.py          # Implementación del algoritmo Hill Climbing
-├── backtracking.py           # Implementación del algoritmo Backtracking
-├── visualization.py          # Módulo de visualización de tableros
-├── experiments.py            # Script principal de experimentación
-├── requirements.txt          # Dependencias del proyecto
-└── README.md                # Este archivo
-```
-
 ## Instalación
 
 1. Asegúrate de tener Python 3.7 o superior instalado.
@@ -68,25 +92,24 @@ pip install -r requirements.txt
 
 ### Prueba rápida
 ```bash
-python test_quick.py
+python codigo/test_quick.py
+```
+
+### Ejecutar todos los experimentos
+```bash
+python codigo/main.py
 ```
 
 ### Ejecutar experimentos individuales
 ```bash
-python run_experiments.py 1    # Experimento 1: Escalabilidad
-python run_experiments.py 2    # Experimento 2: Consistencia
-python run_experiments.py 3    # Experimento 3: Optimización
-python run_experiments.py todos # Todos los experimentos
+python experimentos/experimento1_escalabilidad.py
+python experimentos/experimento2_consistencia.py
+python experimentos/experimento3_optimizacion.py
 ```
 
 ### Generar gráficos
 ```bash
-python generar_graficos.py
-```
-
-### Generar tablas para el reporte
-```bash
-python actualizar_reportes.py
+python resultados/generar_graficos.py
 ```
 
 ## Experimentos

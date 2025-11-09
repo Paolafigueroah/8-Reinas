@@ -2,8 +2,14 @@
 Script de prueba rápida para verificar que los algoritmos funcionan correctamente.
 """
 
-from hill_climbing import HillClimbingNQueens
-from backtracking import BacktrackingNQueens
+import sys
+from pathlib import Path
+
+# Agregar el directorio padre al path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from codigo.hill_climbing import HillClimbingNQueens
+from codigo.backtracking import BacktrackingNQueens
 
 def test_algorithms():
     print("="*60)

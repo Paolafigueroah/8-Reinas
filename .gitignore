@@ -53,3 +53,12 @@ Thumbs.db
 
 # Carpeta duplicada
 8-Reinas/
+
+# Archivos antiguos (estructura anterior)
+experiments.py
+run_experiments.py
+actualizar_reportes.py
+combinar_resultados.py
+generar_graficos.py
+tablas_reporte.md
+visualization.py
