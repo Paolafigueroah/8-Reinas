@@ -66,49 +66,27 @@ pip install -r requirements.txt
 
 ## Uso
 
-### Ejecutar un algoritmo individual
-
-#### Hill Climbing:
+### Prueba rápida
 ```bash
-python hill_climbing.py
+python test_quick.py
 ```
 
-#### Backtracking:
+### Ejecutar experimentos individuales
 ```bash
-python backtracking.py
+python run_experiments.py 1    # Experimento 1: Escalabilidad
+python run_experiments.py 2    # Experimento 2: Consistencia
+python run_experiments.py 3    # Experimento 3: Optimización
+python run_experiments.py todos # Todos los experimentos
 ```
 
-### Ejecutar todos los experimentos
-
-El script `experiments.py` ejecuta los tres experimentos requeridos:
-
+### Generar gráficos
 ```bash
-python experiments.py
+python generar_graficos.py
 ```
 
-Esto generará:
-- **Experimento 1:** Escalabilidad (n = 4, 8, 12, 16, 20)
-- **Experimento 2:** Consistencia (10 ejecuciones para n = 8)
-- **Experimento 3:** Optimización (versión original vs. mejorada)
-
-Los resultados se guardan en:
-- `resultados_experimentos.json` (formato JSON)
-- `experimento1_escalabilidad.csv`
-- `experimento2_consistencia.csv`
-
-### Visualización
-
-Para visualizar una solución:
-```python
-from backtracking import BacktrackingNQueens
-from visualization import visualize_board
-
-n = 8
-bt = BacktrackingNQueens(n)
-solution, stats = bt.solve()
-
-if stats['solution_found']:
-    visualize_board(solution, n, f"Solución para {n}-Reinas")
+### Generar tablas para el reporte
+```bash
+python actualizar_reportes.py
 ```
 
 ## Experimentos

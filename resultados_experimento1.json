@@ -1,0 +1,100 @@
+{
+  "experimento1": {
+    "hill_climbing": [
+      {
+        "n": 4,
+        "tiempo_promedio": 0.0,
+        "tiempo_min": 0.0,
+        "tiempo_max": 0.0,
+        "iteraciones_promedio": 1.6666666666666667,
+        "iteraciones_min": 1,
+        "iteraciones_max": 3,
+        "soluciones_encontradas": 2,
+        "memoria_promedio": 0
+      },
+      {
+        "n": 8,
+        "tiempo_promedio": 0.0021777947743733725,
+        "tiempo_min": 0.0015079975128173828,
+        "tiempo_max": 0.003035306930541992,
+        "iteraciones_promedio": 4.333333333333333,
+        "iteraciones_min": 4,
+        "iteraciones_max": 5,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.0078125
+      },
+      {
+        "n": 12,
+        "tiempo_promedio": 0.01574405034383138,
+        "tiempo_min": 0.013044595718383789,
+        "tiempo_max": 0.020632266998291016,
+        "iteraciones_promedio": 6.333333333333333,
+        "iteraciones_min": 6,
+        "iteraciones_max": 7,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.01171875
+      },
+      {
+        "n": 16,
+        "tiempo_promedio": 0.058542331059773765,
+        "tiempo_min": 0.050451040267944336,
+        "tiempo_max": 0.06383514404296875,
+        "iteraciones_promedio": 9,
+        "iteraciones_min": 8,
+        "iteraciones_max": 10,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.02734375
+      },
+      {
+        "n": 20,
+        "tiempo_promedio": 0.15148361523946127,
+        "tiempo_min": 0.14196014404296875,
+        "tiempo_max": 0.16592025756835938,
+        "iteraciones_promedio": 9.666666666666666,
+        "iteraciones_min": 9,
+        "iteraciones_max": 10,
+        "soluciones_encontradas": 0,
+        "memoria_promedio": 0.08333333333333333
+      }
+    ],
+    "backtracking": [
+      {
+        "n": 4,
+        "tiempo": 0.0,
+        "nodos_explorados": 26,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 8,
+        "tiempo": 0.0019991397857666016,
+        "nodos_explorados": 876,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 12,
+        "tiempo": 0.001999378204345703,
+        "nodos_explorados": 3066,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 16,
+        "tiempo": 0.17760729789733887,
+        "nodos_explorados": 160712,
+        "solucion_encontrada": true,
+        "memoria": 0
+      },
+      {
+        "n": 20,
+        "tiempo": 5.687960624694824,
+        "nodos_explorados": 3992510,
+        "solucion_encontrada": true,
+        "memoria": 0
+      }
+    ]
+  },
+  "experimento2": [],
+  "experimento3": []
+}

@@ -22,8 +22,9 @@ wheels/
 
 # Virtual Environment
 venv/
-ENV/
 env/
+ENV/
+.venv
 
 # IDE
 .vscode/
@@ -32,18 +33,23 @@ env/
 *.swo
 *~
 
-# Resultados de experimentos
-*.json
-*.csv
-resultados_*.json
-experimento*.csv
+# Resultados de experimentos (opcional - descomenta si no quieres subirlos)
+# *.json
+# *.csv
+# *.png
 
-# Imágenes generadas
-*.png
-*.jpg
-*.pdf
-
-# OS
+# Archivos temporales
+*.log
+*.tmp
 .DS_Store
 Thumbs.db
 
+# Archivos de resultados generados (opcional)
+# resultados_experimento*.json
+# resultados_experimentos.json
+# experimento*.csv
+# grafico_*.png
+# tablas_reporte.md
+
+# Carpeta duplicada
+8-Reinas/
